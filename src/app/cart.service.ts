@@ -18,8 +18,8 @@ export class CartService {
     return this.items;
   }
 
-  removeItem(index) {
-    this.items.splice(index, 1); 
+  removeItem(productId) {
+    this.items.splice(productId, 1); 
   }
 
   clearCart() {

@@ -24,8 +24,8 @@ export class CartComponent {
     });
   }
 
-  removeItem (index) {
-    this.cartService.removeItem(index);
+  removeItem (productId) {
+    this.cartService.removeItem(productId);
   }
 
   onSubmit(customerData) {
